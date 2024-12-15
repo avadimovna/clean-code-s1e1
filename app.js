@@ -32,10 +32,12 @@ var createNewTaskElement=function(taskString){
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.className = "button";
+    editButton.type = "button";
 
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     deleteButton.className = "button";
+    deleteButton.type = "button";
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButtonImg.className = "delete-image";
 
